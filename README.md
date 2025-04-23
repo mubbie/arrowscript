@@ -87,6 +87,6 @@ This is very much a work in progress. The grammar is defined and the parsers hav
 - Create the web playground.
 - Create the VSCode plugin.
 
-## 🤝Contributing
+## 🤝 Contributing
 
 If Arrowscript sounds useful or fun, feel free to jump in! Help is welcome, whether with rendering, UI, testing, docs, or ideas.
