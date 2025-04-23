@@ -1,0 +1,10 @@
+diagram: sequence
+
+user = "User"
+agent = "Support Agent"
+system = "System"
+
+user -> agent : "I need help"
+agent -> system : "Fetch logs" [info]
+system -> agent : "Logs sent" [success]
+agent -> user : "Issue fixed" [success]

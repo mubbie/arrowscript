@@ -1,0 +1,9 @@
+diagram: flow
+
+start = "Start"
+check = "Check input"
+done = "Finish"
+
+start -> check : begin
+check -> done : valid [success]
+check -> start : retry [loop]

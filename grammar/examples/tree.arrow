@@ -1,0 +1,10 @@
+diagram: tree
+
+root = "Project"
+design = "Design"
+dev = "Development"
+test = "Testing"
+
+root -> design
+root -> dev
+dev -> test : next [info]

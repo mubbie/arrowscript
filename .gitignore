@@ -13,6 +13,8 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+*.coverprofile
+*.log
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
@@ -23,3 +25,26 @@ go.work.sum
 
 # env file
 .env
+.qodo
+
+# IDE/editor configs
+.vscode/
+.idea/
+.DS_Store
+
+# Node.js/TypeScript
+node_modules/
+dist/
+dist-cjs/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/Editor junk
+*.swp
+*.swo
+*.tmp
+Thumbs.db
+ehthumbs.db
+.DS_Store
